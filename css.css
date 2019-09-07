@@ -23,7 +23,7 @@ p,h2,h3 {
 	padding-left: 15px;
 }
 
-#Abilities {
+#Abilities,#Weapons {
 	overflow: hidden;
 	border: 2px solid white;
 	width: 350px;
@@ -43,24 +43,32 @@ b{
 }
 
 a{
-	color: white;
+	color: rgb(255, 255, 255);
 	margin-left: 144px;
 	margin-right: 144px;
 	text-decoration: none;
 }
-#Abilities img {
+
+#Weapons a{
+	color: rgb(255, 255, 255);
+	margin-left: 50px;
+	margin-right: auto;
+	text-decoration: none;
+}
+
+#Abilities img,#Weapons img {
 	margin-top: 25px; 
 	padding-left: 5px;
 	width: 25%;
 	float: left;
 }
 
-#Abilities p {
+#Abilities p, #Weapons p{
 	width: 70%;
 	float: right;
 	padding-left: 0px;
 }
 
-div#Abilities div {
+div#Abilities div,div#Weapons div {
 	border-bottom: 2px solid white;
 }
