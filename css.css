@@ -25,7 +25,7 @@ p,h2,h3 {
 	padding-left: 15px;
 }
 
-#Abilities,#Weapons {
+#Abilities,#Weapons, #Armor ,#Shield {
 	overflow: hidden;
 	border: 2px solid white;
 	width: 350px;
@@ -35,7 +35,7 @@ p,h2,h3 {
 
 div.Container{
 	border: solid;
-	border-width: 10px 0px 10px 10px;
+	border-width: 10px 0px 0px 0px;
 }
 
 b{
@@ -58,19 +58,33 @@ a{
 	text-decoration: none;
 }
 
-#Abilities img,#Weapons img {
+#Armor a{
+	color: rgb(255, 255, 255);
+	margin-left: 50px;
+	margin-right: 116px;
+	text-decoration: none;
+}
+
+#Shield a{
+	color: rgb(255, 255, 255);
+	margin-left: 50px;
+	margin-right: 116px;
+	text-decoration: none
+}
+
+#Abilities img,#Weapons img , div#Armor img, div#Shield img{
 	margin-top: 25px; 
 	padding-left: 5px;
 	width: 25%;
 	float: left;
 }
 
-#Abilities p, #Weapons p{
+#Abilities p, #Weapons p, div#Armor p, div#Shield p{
 	width: 70%;
 	float: right;
 	padding-left: 0px;
 }
 
-div#Abilities div,div#Weapons div {
+div#Abilities div,div#Weapons div, div#Armor div, div#Shield div{
 	border-bottom: 2px solid white;
 }
